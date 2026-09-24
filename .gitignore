@@ -1,0 +1,24 @@
+# Ambiente virtual Python
+venv/
+.venv/
+env/
+
+# Credenciais e variáveis de ambiente
+.env
+*.env
+credentials.json
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Dados brutos pesados (opcional - se o CSV for grande, descomente a linha abaixo)
+# data/raw/*.csv
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
