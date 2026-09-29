@@ -50,4 +50,7 @@ CREATE TABLE vendas_tratada (
     margem_percentual    NUMERIC(10,2),
     receita_bruta        NUMERIC(12,2) CHECK (receita_bruta >= 0),
     avaliacao            NUMERIC(4,2) CHECK (avaliacao BETWEEN 0 AND 10)
+    dia_semana          VARCHAR(20),
+    mes                 INTEGER,
+    categoria_valor     VARCHAR(10)
 );
